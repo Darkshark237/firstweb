@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0px 300px;
+    background-color: white;
+}
+
+header {
+    background-color: #10141b;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 0px 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.first,.second,.third,.four{
+    padding: 0px 50px;
+}
+.first {
+    background-color: #1f2937;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: #f9faf8 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* border: 2px solid white; */
+}
+/* .first>:first-child {
+    border: 2px solid white;
+} */
+.maintext{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+}
+.secondtext{
+    font-size: 12px;
+    font-weight: 100px;
+}
+button{
+    background-color: #3b82f5;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+/* .imgintro{
+    border: 2px solid white;
+} */
+img{
+    width: 100%;
+    /* height: fit-content; */
+}
+
+.second{
+    background-color: white;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: 5px 40px 40px 40px;
+}
+.second p{
+    align-self: center;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    height: auto;
+    margin: 0 5px;
+}
+.box p{
+    color: #384558;
+    font-size: 5px;
+    font-weight: 100;
+    text-align: center;
+}
+.box div>img{
+    border-radius: 10px;
+}
+.box>:nth-child(2){
+    font-size: 10px;
+}
+.third{
+    background-color: #e5e7eb;
+}
+.four{
+    background-color: #ffffff;
+}
+footer{
+    background-color: #1f2937;
+}
