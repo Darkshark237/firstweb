@@ -125,7 +125,23 @@ img{
     text-align: right;
 }
 .four{
-    background-color: #ffffff;
+    background-color: #3882f6;
+    margin: 20px 100px;
+    padding: 20px 50px;
+    font-size: 10px;
+    display: flex;
+    color: white;
+    height: auto;
+}
+.four>:nth-child(1){
+    margin-right: 20px;
+}
+.four>:nth-child(2){
+    justify-content: center;
+    align-items: center;
+}
+.four button{
+    border: 1px solid white;
 }
 footer{
     background-color: #1f2937;
